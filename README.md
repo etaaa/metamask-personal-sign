@@ -1,16 +1,16 @@
-# Golang Ethereum Personal Sign
+# MetaMask personal_sign in Golang
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/etaaa/Golang-Ethereum-Personal-Sign.svg)](https://pkg.go.dev/github.com/etaaa/Golang-Ethereum-Personal-Sign)
 [![Go Report Card](https://goreportcard.com/badge/github.com/etaaa/Golang-Ethereum-Personal-Sign)](https://goreportcard.com/report/github.com/etaaa/Golang-Ethereum-Personal-Sign)
 
-A simple Golang solution for MetaMasks personal_sign method (<https://docs.metamask.io/guide/signing-data.html#a-brief-history>).
+A simple Golang solution for MetaMasks personal_sign method (<https://docs.metamask.io/wallet/how-to/sign-data/#use-personal_sign>).
 Create a MetaMask signature for comparison: https://app.mycrypto.com/sign-message
 
 ## Usage
 
 Install:
 ```bash
-go get github.com/etaaa/Golang-Ethereum-Personal-Sign
+go get https://github.com/etaaa/metamask-personal-sign
 ```
 Usage:
 ```go
@@ -25,7 +25,7 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/joho/godotenv"
 
-	ps "github.com/etaaa/Golang-Ethereum-Personal-Sign"
+	ps "https://github.com/etaaa/metamask-personal-sign"
 )
 
 func main() {
